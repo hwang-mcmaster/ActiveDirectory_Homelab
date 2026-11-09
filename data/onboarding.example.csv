@@ -1,0 +1,3 @@
+SamAccountName,GivenName,Surname,EmployeeID,Department,Groups
+alice.chen,Alice,Chen,LAB001,IT,LAB-Employees;LAB-IT
+ben.patel,Ben,Patel,LAB002,HR,LAB-Employees;LAB-HR

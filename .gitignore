@@ -1,0 +1,23 @@
+# Secrets, identities, state and generated evidence stay local.
+config/lab.json
+data/*.csv
+!data/*.example.csv
+logs/
+reports/
+evidence/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+*.auto.tfvars.json
+.terraform/
+crash.log
+*.vhd
+*.vhdx
+*.avhdx
+*.iso
+*.pfx
+*.key
+*.cer
+TestResults.xml
+*.local.*

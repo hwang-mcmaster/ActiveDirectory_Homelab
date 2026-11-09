@@ -1,0 +1,7 @@
+# Copy to terraform.tfvars and adjust local paths; never store credentials here.
+provision = false
+vm_root   = "D:\\SysadminLab"
+vms = {
+  LAB-DC01 = { memory_gib = 4, cpu_count = 2, disk_gib = 64, iso = "D:\\ISO\\WindowsServer.iso" }
+  LAB-CL01 = { memory_gib = 4, cpu_count = 2, disk_gib = 80, iso = "D:\\ISO\\Windows11.iso" }
+}

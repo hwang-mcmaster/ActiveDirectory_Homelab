@@ -1,0 +1,15 @@
+{
+  "DomainName": "corp.example.test",
+  "NetbiosName": "CORP",
+  "Server": "DC01.corp.example.test",
+  "BaseDN": "DC=corp,DC=example,DC=test",
+  "LabOU": "OU=Lab,DC=corp,DC=example,DC=test",
+  "UsersOU": "OU=Users,OU=Lab,DC=corp,DC=example,DC=test",
+  "DisabledOU": "OU=Disabled,OU=Lab,DC=corp,DC=example,DC=test",
+  "GroupsOU": "OU=Groups,OU=Lab,DC=corp,DC=example,DC=test",
+  "ComputersOU": "OU=Workstations,OU=Lab,DC=corp,DC=example,DC=test",
+  "AllowedGroups": ["LAB-Employees", "LAB-IT", "LAB-HR", "LAB-Finance"],
+  "Departments": ["IT", "HR", "Finance"],
+  "ProtectedAccounts": ["Administrator", "Guest", "krbtgt"],
+  "MaxBatchSize": 100
+}
